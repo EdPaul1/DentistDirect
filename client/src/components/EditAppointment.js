@@ -41,7 +41,7 @@ const EditAppointment = () => {
 
   return (
     <>
-      <Card sx={{minHeight: 500, border: '1px solid',  borderColor: 'primary.main', borderRadius: '16px', mt: 5, bgcolor: '#E8E7E2'}}>
+      <Card sx={{height: 550, border: '1px solid',  borderColor: 'primary.main', borderRadius: '16px', mt: 5, bgcolor: '#E8E7E2'}}>
         <CardContent>
           <div className="header-container" >
             <h2>Edit your appointment</h2>
