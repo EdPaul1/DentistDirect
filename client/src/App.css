@@ -1,38 +1,158 @@
-.App {
+/* .App {
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-size: 100px;
+  text-align: center;
+
+  background-image: url('assets/images/home.png');
+  background-size: cover;
+  background-position: center;
+} */
+
+.App-link {
+  color: #BD8B4E;
+}
+
+.section{
+  padding: 8rem 0 7rem;
+  text-align: enter;
+}
+
+/* #logo {
+  margin:-50px auto 0 auto;
+  padding:50px 0 0 0;
+  width:200px;
+  height:200px;
+  background:url(https://drive.google.com/file/d/1QPcPTKZv54vpQFmpxqpFA30-282HjfnX/view?usp=drive_link) no-repeat;
+} */
+
+.mainhead {
+  margin-top: 15px;
+  justify-content: center;
+  color: #BD8B4E;
+  text-align: center;
+  min-height: 10vh;
+  font-family: "Caveat", cursive; /* Note: Use "cursive" as the generic font-family for web fonts */
+  font-weight: bold;
+  font-size: 35x;
+  margin-bottom: 15px;
+}
+
+
+/* .login-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color:#BD8B4E;
+  text-align: center;
+  
+} */
+
+.login_card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 70%;
+  margin-right: 30px;
+  max-width: 40vw;
+  border: 1px solid #965F4B;
+  margin-bottom: 1em;
+  border-radius: 30px;
+  background-color: #f2efed;
+}
+
+
+  /* background-image: url('assets/images/home.png');
+  background-size: cover;
+  background-position: center; */
+
+
+.dentist-img{
+    float: left;
+    width:  300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+body {
+  margin:5px;
+  background-image: url('assets/images/home.png');
+  background-color: #f2efed;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 70%;
+}
+
+/* .background-image {
+  background-image: url('https://drive.google.com/file/d/1QPcPTKZv54vpQFmpxqpFA30-282HjfnX/view?usp=drive_link');
+  background-size: cover;
+  background-position: center;
+} */
+
+
+
+* {
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+  margin-bottom: 1em;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+#home {
+  height: 50vh;
+  min-height: 400px;
+  background-color: #3D4C52;
+  }
+
+.dentist_container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+}
+
+.header-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color:#BD8B4E;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.appointment-container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color:#BD8B4E;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+#make-appointment{
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.visit-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  color:#BD8B4E;
 }
