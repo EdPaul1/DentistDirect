@@ -18,12 +18,12 @@ u2 = User.create(name: 'John', password: "password")
 u3 = User.create(name:'Alex', password: "password")
 
 
-d1 = Dentist.create(name: 'Dr. Jazzy Jaz', specialty: 'Endodontics', image: 'https://perfectsmile.com.au/wp-content/uploads/2023/01/190A2989-scaled.webp')
-d2 = Dentist.create(name: 'Dr. Emily', specialty: 'Orthodontics', image: 'https://cdn-jabob.nitrocdn.com/ThmVFroGPlLDlwmaLvYkldMabhBFjyWo/assets/images/optimized/rev-49f9604/wp-content/uploads/2021/04/2020-1003-1024x1024.jpg')
-d3 = Dentist.create(name: 'Dr. Alex', specialty: 'Dentures', image: 'https://d1k13df5m14swc.cloudfront.net/photos/Dr-Jason-Lin-DDS-MS-334778-circle_medium__v1__.png')
-d4 = Dentist.create(name: 'Dr. Ann', specialty: 'Periodontics', image: 'https://cdn-jabob.nitrocdn.com/ThmVFroGPlLDlwmaLvYkldMabhBFjyWo/assets/images/optimized/rev-49f9604/wp-content/uploads/2022/06/download-1-2.png')
-d5 = Dentist.create(name: 'Dr. John', specialty: 'Pediatric Dentistry', image: 'https://d3wnzga3fpd9a.cloudfront.net/photos/Dr-Byung-Kang-DDS-387751-circle_medium__v1__.png')
-d6 = Dentist.create(name: 'Dr. Nguyen', specialty: 'Oral Medicine', image: 'https://d2uur722ua7fvv.cloudfront.net/photos/Dr-Duc-Huynh-DDS-106861-circle_medium.png')
+d1 = Dentist.create(name: 'Dr. Ethan Smith', specialty: 'Endodontics', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsABkA4ve8SrbZ_LX01AQrI7L5T246Vx3LLw&usqp=CAU')
+d2 = Dentist.create(name: 'Dr. Abigail Taylor', specialty: 'Orthodontics', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjzXVE46gjgde1l8AW-lC9FXKIzaS24fXDhi26jcQZPVvTAs5c8NXH5X2Tjqvv2Qqht7s&usqp=CAU')
+d3 = Dentist.create(name: 'Dr. Andrew Lewis', specialty: 'Dentures', image: 'https://d1k13df5m14swc.cloudfront.net/photos/Dr-Jason-Lin-DDS-MS-334778-circle_medium__v1__.png')
+d4 = Dentist.create(name: 'Dr. Olivia Johnson', specialty: 'Periodontics', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP7rvBujaVGjn7uGa8DqNu9pUu03ACFGRY6F8OM480VrsqpNDLSY593WiUuIO_bymt_P8&usqp=CAU')
+d5 = Dentist.create(name: 'Dr. Daniel Walker', specialty: 'Pediatric Dentistry', image: 'https://d3wnzga3fpd9a.cloudfront.net/photos/Dr-Byung-Kang-DDS-387751-circle_medium__v1__.png')
+d6 = Dentist.create(name: 'Dr. James Foster', specialty: 'Oral Medicine', image: 'https://d2uur722ua7fvv.cloudfront.net/photos/Dr-Duc-Huynh-DDS-106861-circle_medium.png')
 
 
 puts "Seeding completed successfully 🌱"
