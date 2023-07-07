@@ -28,7 +28,7 @@ At DentistDirect, our mission is to revolutionize the way you approach dental ca
 - Ruby 2.7.4
 - NodeJS (v16), and npm
 - Render account
-- Postgresql
+- SQlite3
 
 See Environment Setup below for instructions on installing these tools if you
 don't already have them.
