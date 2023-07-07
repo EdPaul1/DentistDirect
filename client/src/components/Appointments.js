@@ -25,7 +25,7 @@ const Appointments = ({ user, editApptMode }) => {
   ));
 
   return (
-    <Card sx={{minHeight: 500, border: '1px solid',  borderColor: 'error.main', borderRadius: '16px', mt: 5, bgcolor: '#E8E7E2'}}>
+    <Card sx={{height: 550, border: '1px solid',  borderColor: 'error.main', borderRadius: '16px', mt: 5, bgcolor: '#E8E7E2'}}>
       <CardContent>
         <div className="header-container" >
           <h2>My Appointments</h2>
