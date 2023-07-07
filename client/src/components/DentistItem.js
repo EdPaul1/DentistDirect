@@ -17,7 +17,11 @@ const DentistItem = ({ dentist }) => {
     <div className="dentist_container">
       <Card sx={{ maxWidth: 200, border: 1 }} className="dentist_card">
         <CardContent>
-          <img src={dentist.image} alt={dentist.name} style={{ width: 'auto', height: 'auto' }} />
+          <img
+            src={dentist.image}
+            alt={dentist.name}
+            style={{ maxWidth: '70px', maxHeight: '70px' }}
+          />
           <Typography sx={{ fontSize: 20 }} color="text.error" gutterBottom>
             {dentist.name}
           </Typography>
