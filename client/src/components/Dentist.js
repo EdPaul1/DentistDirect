@@ -46,7 +46,7 @@ const Dentist = ({ user, isEdit }) => {
   }
 
   return (
-    <Card sx={{minHeight: 500, border: '1px solid', borderColor: 'error.main', borderRadius: '16px', mt: 5, bgcolor: '#E8E7E2'}} className="header-container">
+    <Card sx={{height: 550, border: '1px solid', borderColor: 'error.main', borderRadius: '16px', mt: 5, bgcolor: '#E8E7E2'}} className="header-container">
       <CardContent className="dentist_card">
         <img
           src={currentDentist.image}
