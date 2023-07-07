@@ -9,9 +9,10 @@ puts "🌱 Seeding spices..."
 
 puts "Deleting old data..."
 
-Appointment.destroy_all
-Dentist.destroy_all
-
+Appointment.delete_all
+Dentist.delete_all
+ActiveRecord::Base.connection.execute("DELETE FROM sqlite_sequence WHERE name = 'appointments'")
+ActiveRecord::Base.connection.execute("DELETE FROM sqlite_sequence WHERE name = 'dentists'")
 
 u1 = User.create(name: 'Jaz', password: "password")
 u2 = User.create(name: 'John', password: "password")
