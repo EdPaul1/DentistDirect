@@ -48,8 +48,13 @@ const Dentist = ({ user, isEdit }) => {
   return (
     <Card sx={{minHeight: 500, border: '1px solid', borderColor: 'error.main', borderRadius: '16px', mt: 5, bgcolor: '#E8E7E2'}} className="header-container">
       <CardContent className="dentist_card">
+        <img
+          src={currentDentist.image}
+          alt={currentDentist.name}
+          style={{ maxWidth: '50px', maxHeight: '50px', objectFit: 'cover' }}
+        />
         <Typography variant="h2" fontFamily="Roboto" sx={{ fontSize: 24 }}>
-          Make a new appointment with {currentDentist.name}
+          Make a new appointment with: <br /> {currentDentist.name}
         </Typography>
         <Typography variant="h3" fontFamily="Roboto" sx={{ fontSize: 18 }}>
           Specialty: {currentDentist.specialty}
