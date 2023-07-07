@@ -1,5 +1,5 @@
 # Introducing DentistDirect: Simplifying Your Dental Care Journey
-
+![Screenshot](Page.png)
 ## Description
 
 DentistDirect is a user-friendly application designed to streamline and enhance your dental care experience. With DentistDirect, you can effortlessly manage your dental appointments, explore a wide range of skilled dentists, and access their specialties. Our platform is here to ensure that your oral health is in excellent hands, providing convenience and flexibility every step of the way.
